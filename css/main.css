@@ -88,11 +88,24 @@ nav ul li a {
     background-color: rgb(239, 242, 245);
 }
 
-#about p {
+.p1, .p2, .p3 {
     font-size: 95%;
     width: auto;
-    background-color: rgb(205, 241, 205);
     padding: 10% 5%;
     line-height: 140%;
+}
+
+.p1 {
+    background-color: rgb(244, 202, 209);
+}
+
+.p2 {
+    background-color: rgb(247, 217, 221);
 
 }
+ 
+.p3 {
+    background-color: rgb(248, 230, 233);
+
+}
+ 
