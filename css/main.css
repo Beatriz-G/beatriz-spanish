@@ -109,3 +109,32 @@ nav ul li a {
 
 }
  
+/*PROJECTS*/
+#projects h1 {
+    font-size: 110%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+}
+
+/*SKILLS*/
+#skills h1 {
+    font-size: 110%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+}
+
+/*CONTACT*/
+#contact h1 {
+    font-size: 110%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+}
