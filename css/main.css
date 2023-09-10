@@ -14,6 +14,7 @@ body {
     width: 90%;
     margin: 10% auto;
     overflow: auto;
+    text-align: center;
 }
 
 /*BACK TO TOP ARROW*/
@@ -88,5 +89,10 @@ nav ul li a {
 }
 
 #about p {
-    
+    font-size: 95%;
+    width: auto;
+    background-color: rgb(205, 241, 205);
+    padding: 10% 5%;
+    line-height: 140%;
+
 }
