@@ -6,12 +6,12 @@ html {
 body {
     font-family: 'Josefin Sans', sans-serif;
     color: #4A4A45;
-    font-size: 30px;
+    font-size: 20px;
     overflow-x: hidden;
 }
 
 .full-width {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     overflow: auto;
 }
@@ -21,18 +21,29 @@ body {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 50px;
     z-index: 99;
-    font-size: 18px;
+    font-size: 28px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: none;
     color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
   
-  #myBtn:hover {
-    background-color: #555;
-  }
+#myBtn:hover {
+    background-color: rgba(85, 85, 85, 0.558);
+}
+
+/*OPENING*/
+#opening {
+    
+}
+
+.navigation h1 {
+    font-size: 130%;
+    text-align: center;  
+    width: auto;
+}
