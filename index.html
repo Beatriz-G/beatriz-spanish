@@ -204,7 +204,7 @@
                     </div>
                     <script>
                         (function (document) {
-                            const markers = [...document.querySelectorAll('mark')];
+                            const mark = [...document.querySelectorAll('mark')];
                             
                             const observer = new IntersectionObserver(entries => {
                                 entries.forEach((entry) => {
@@ -217,7 +217,7 @@
                             threshold: 0.8
                         });
                         
-                        markers.forEach(mark => {
+                        mark.forEach(mark => {
                             observer.observe(mark);
                         });
                         })(document);
