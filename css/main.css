@@ -234,11 +234,11 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     line-height: 40px;
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 20px;
 }
 
-/*skills animation*/
+/*SKILLS ANIMATION*/
 mark {
     --color1: rgba(238, 136, 228, 0.788);
     --color2: rgb(248, 135, 225);
@@ -258,9 +258,7 @@ mark {
     to {
       background-size: 100% var(--bg-height);
     }
-}
-  
-  
+} 
 
 /**CONTACT**/
 
