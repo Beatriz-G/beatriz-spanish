@@ -271,19 +271,14 @@ mark {
     background-color: rgb(239, 242, 245);
 }
 
-
-
 .summary p {
     font-size: 90%;
     text-align: center;
-    width: 100%;
-    max-width: 700px;
-    height: 500%;
+    width: auto;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    line-height: 40px;
+    padding: 10% 5%;
+    line-height: 35px;
+    background-color: #fad2e4;
 }
 
 /**IMG OVERLAY**/
@@ -298,7 +293,7 @@ mark {
     display: block;
     width: 95%;
     height: auto;
-    border-radius: 80%;
+    border-radius: 60%;
     border: double 7px #f0bad1;
 }
 
