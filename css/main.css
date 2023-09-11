@@ -128,6 +128,7 @@ nav ul li a {
     font-size: 120%;
     padding: 5% 2%;
     font-family: 'Inconsolata', monospace;
+    font-weight: 900;
     
 }
 
@@ -165,7 +166,7 @@ nav ul li a {
 
 .project-button {
     width: 40%;
-    color: #B300B3;
+    color: #4b2f4b;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 20px;
@@ -173,6 +174,7 @@ nav ul li a {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Inconsolata', monospace;
     box-shadow: 7px 7px 5px rgb(200, 123, 200);
     background-color: rgb(239, 233, 240);
 }
@@ -188,6 +190,7 @@ nav ul li a {
     font-size: 20px;
     line-height: 28px;
     padding: 10px 0;
+    font-weight: 800;
 }
 
 .project-piece .skills-list {
@@ -358,6 +361,7 @@ mark {
     color: rgb(77, 77, 234);
     text-decoration: none;
     font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
 }
 
 .github {
@@ -368,6 +372,7 @@ mark {
     color: rgb(45, 5, 5);
     align-items: center;
     font-family: 'Inconsolata', monospace;
+    letter-spacing: 2px;
 }
 
 .name {
