@@ -39,9 +39,6 @@ body {
 }
 
 /*OPENING*/
-#opening {
-    
-}
 
 .navigation h1 {
     font-size: 150%;
@@ -341,41 +338,21 @@ mark {
 
 /**Social Icons**/
 
-.icons h3 {
-    height: 50%;
-    width: 95%;
-    text-align: center;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-  
-.social-icons p {
-    border-radius: 90%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.email,
+.linkedin,
+.github {
     font-size: 110%;
-    background-color: rgb(220, 176, 220);  
+    background-color: #f0bad1;
+    padding: 5%;
+    margin: 20% 0;
+    align-items: center;
 }
 
-.social-icons p i {
-    color: white;
-    text-align: center;
-}
-
-.icon-links a{
-    padding-top: 14%;
-    padding-left: 2%;
-}
-
-.hovertext p {
-    display: none;
+.email:hover,
+.linkedin:hover,
+.github:hover {
+    background-color:rgb(200, 123, 200);
+    color: black;
 }
 
 .end-footer {
