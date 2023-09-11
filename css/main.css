@@ -325,14 +325,15 @@ mark {
     cursor: default;
 }
 
-/**Social Icons**/
+/*Social Links*/
 
 .contact {
-    width: 100%;
+
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
+    padding-bottom: 40%;
 }
 
 .email {
@@ -342,18 +343,19 @@ mark {
 }
 
 .linkedin {
-    font-size: 110%;
+    font-size: 140%;
     background-color: rgb(209, 209, 252);
-    padding: 15%;
-    
+    padding: 5% 30%;
+    text-align:center;
     color: rgb(77, 77, 234);
     text-decoration: none;
 }
 
 .github {
-    font-size: 110%;
+    font-size: 140%;
     background-color: rgb(193, 244, 193);
-    padding: 15%;
+    padding: 5% 33%;
     text-decoration: none;
     color: rgb(45, 5, 5);
+    align-items: center;
 }
