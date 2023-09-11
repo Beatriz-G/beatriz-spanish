@@ -4,7 +4,7 @@ html {
 
 /*BODY*/
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #4A4A45;
     font-size: 20px;
     overflow-x: hidden;
@@ -47,6 +47,7 @@ body {
     color: rgb(251, 132, 154);
     padding: 10% 0;
     background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
 }
 
 .nagivation nav {
@@ -83,6 +84,7 @@ nav ul li a {
     color: rgb(251, 132, 154);
     padding: 10% 0;
     background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
 }
 
 .p1, .p2, .p3 {
@@ -339,7 +341,7 @@ mark {
 .email {
     font-size: 110%;
     background: pink;
-    padding: 5%;
+    padding: 5% 3%;
 }
 
 .linkedin {
@@ -349,6 +351,7 @@ mark {
     text-align:center;
     color: rgb(77, 77, 234);
     text-decoration: none;
+    font-family: 'Lobster Two', cursive;
 }
 
 .github {
@@ -358,4 +361,9 @@ mark {
     text-decoration: none;
     color: rgb(45, 5, 5);
     align-items: center;
+    
+}
+
+.name {
+    color: rgb(240, 115, 136);
 }
