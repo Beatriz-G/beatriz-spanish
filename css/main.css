@@ -262,8 +262,6 @@ mark {
 
 /*CONTACT*/
 
-
-
 #contact h1 {
     font-size: 110%;
     text-align: center;  
@@ -275,28 +273,7 @@ mark {
 
 
 
-
-#contact h2 {
-    font-size: 40px;
-    font-family: 'Emblema One', cursive;
-    padding: 10px 0;
-    text-align: center;
-    color: #CF2A54;
-    border: 2px solid;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    width: 100%;
-    margin: 1px auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.summary-container p {
+.summary p {
     font-size: 90%;
     text-align: center;
     width: 100%;
