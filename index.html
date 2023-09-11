@@ -176,32 +176,52 @@
                     <div class="skills-tools">
                         <div class="skills">
                              <ul>
-                                <li>Manipulacion del DOM</li>
-                                <li>Control de Versiones</li>
-                                <li>JavaScript</li>
-                                <li>Diseño Web Adaptable</li>
-                                <li>Manejando el Flujo de Datos</li>
+                                <li><mark>Manipulacion del DOM</mark></li>
+                                <li><mark>Control de Versiones</li>
+                                <li><mark>JavaScript</mark></li>
+                                <li><mark>Diseño Web Adaptable</li>
+                                <li><mark>Manejando el Flujo de Datos</mark></li>
                             </ul>  
                         </div>
                         <div class="skills2">
                             <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>ES6</li>
-                                <li>APIs</li>
-                                <li>React</li>
+                                <li><mark>HTML5</mark></li>
+                                <li><mark>CSS3</mark></li>
+                                <li><mark>ES6</mark></li>
+                                <li><mark>APIs</mark></li>
+                                <li><mark>React</mark></li>
                             </ul>  
                         </div>
                         <div class="tools">
                             <ul>
-                                <li>Git & the Command Line</li>
-                                <li>Chrome DevTools</li>
-                                <li>GitHub</li>
-                                <li>CodeSandBox</li>
-                                <li>Visual Studio Code</li>
+                                <li><mark>Git & the Command Line</mark></li>
+                                <li><mark>Chrome DevTools</mark></li>
+                                <li><mark>GitHub</mark></li>
+                                <li><mark>CodeSandBox</mark></li>
+                                <li><mark>Visual Studio Code</mark></li>
                             </ul>
                         </div>
                     </div>
+                    <script>
+                        (function (document) {
+                            const markers = [...document.querySelectorAll('mark')];
+                            
+                            const observer = new IntersectionObserver(entries => {
+                                entries.forEach((entry) => {
+                                if (entry.intersectionRatio > 0) {
+                                    entry.target.style.animationPlayState = 'running';
+                                    observer.unobserve(entry.target);
+                                }
+                                });
+                            }, {
+                            threshold: 0.8
+                        });
+                        
+                        markers.forEach(mark => {
+                            observer.observe(mark);
+                        });
+                        })(document);
+                    </script>
                 </div>
             </section>
             <footer>

@@ -238,14 +238,29 @@ nav ul li a {
     font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
+/*skills animation*/
+mark {
+    --color1: rgba(238, 136, 228, 0.788);
+    --color2: rgb(248, 135, 225);
+    --bg-height: 20%;
+      
+    all: unset;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--bg-height);
+    animation: highlight 4s 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+  
+@keyframes highlight {
+    to {
+      background-size: 100% var(--bg-height);
+    }
+}
+  
+  
 
 /**CONTACT**/
 
