@@ -384,7 +384,7 @@ mark {
 @media screen and (min-width: 760px)  {
 
     .navigation h1 {
-        font-size: 240%;
+        font-size: 280%;
         text-align: center;  
         width: auto;
         color: rgb(218, 102, 123);
@@ -407,54 +407,16 @@ mark {
     }
 
     nav ul li a {
-        margin: 0 15px
-        
-    }
-
-/*
-av {
-    width: 100%;
-}
-
-nav ul {
-   
-}
-
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 15px;
-    color: #B300B3;
-}
-
-
-
-
-    .nagivation nav {
-        text-decoration: none;
-        font-size: 15px;
-    }
-
-    nav ul {
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav ul li a {
-        text-transform: lowercase;
-        text-decoration: none;
-        font-size: 30px;
-        color: rgb(217, 88, 111);
+        margin: 0 15px;
     }
 
     .welcome {
         text-align: center;
-        font-size: 65%;
+        font-size: 125%;
         background-color: rgb(245, 220, 239);
         padding: 10% 5%;
     }
-*/
+
 
 
 }
