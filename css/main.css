@@ -471,18 +471,50 @@ mark {
         padding-bottom: 15%;
     }
 
+    /*SKILLS-TOOLS*/
+    #skills h1 {
+        font-size: 250%;
+        padding: 5% 0;
+    }
+
+
+
 
     /*
-
-
-.project-piece p {
-    font-size: 20px;
-    line-height: 28px;
+#skills h2 {
+    font-size: 40px;
+    font-family: 'Emblema One', cursive;
     padding: 10px 0;
-    font-weight: 800;
+    text-align: center;
+    color: #CF2A54;
+    border: solid 2px;
 }
 
+.skills-sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    
+    width: auto;
+    margin: 25px auto;
+}
 
+.skills ul, 
+.skills2 ul, 
+.tools ul {
+    list-style-type: none;
+    width: 90%;
+    max-width: 200%;
+    height: 500%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+}
 
 
     */
