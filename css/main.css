@@ -383,6 +383,7 @@ mark {
 
 @media screen and (min-width: 760px)  {
 
+    /*OPENING*/
     .navigation h1 {
         font-size: 280%;
         text-align: center;  
@@ -417,7 +418,40 @@ mark {
         padding: 10% 5%;
     }
 
+    /*ABOUT ME*/
 
+    #about h1 {
+        font-size: 250%;
+        padding: 5% 0;
+    }
+
+    .p1, .p2, .p3 {
+        font-size: 140%;
+        line-height: 160%;
+    }
+
+    /*
+    .p1, .p2, .p3 {
+        font-size: 95%;
+        width: auto;
+        padding: 10% 5%;
+        line-height: 140%;
+    }
+    
+    .p1 {
+        background-color: rgb(244, 202, 209);
+    }
+    
+    .p2 {
+        background-color: rgb(247, 217, 221);
+    
+    }
+     
+    .p3 {
+        background-color: rgb(248, 230, 233);
+    
+    }
+    */
 
 }
 
