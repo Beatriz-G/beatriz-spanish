@@ -287,7 +287,7 @@ mark {
     background-color: #fad2e4;
 }
 
-/**IMG OVERLAY**/
+/*IMG OVERLAY*/
 
 .img-container {
     position: relative;
@@ -337,7 +337,6 @@ mark {
 /*Social Links*/
 
 .contact {
-
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -483,6 +482,35 @@ mark {
         font-size: 130%;
     }
 
+    /*CONTACT*/
+    #contact h1 {
+        font-size: 250%;
+        padding: 5% 0;
+        margin-bottom: 10%;
+    }
+
+    .summary p {
+        font-size: 140%;
+        line-height: 160%;
+    }
+
+    /*SOCIAL LINKS*/
+
+    .email, .linkedin, .github {
+        font-size: 140%;
+        margin: 5% 0;
+       
+    }
+
+    .linkedin a, .github a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .contact {
+        padding-bottom: 10%;
+    }
+
 
 
 
@@ -490,9 +518,19 @@ mark {
 
 
 
+
+/*Social Links*/
+
+/*
+
+
+    .name {
+        color: rgb(240, 115, 136);
+    }
+
     */
 
-}
+    }
 
 /*****DESKTOP STYLES*****/
 @media screen and (min-width: 1200px)  {
