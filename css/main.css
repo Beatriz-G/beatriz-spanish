@@ -75,6 +75,18 @@ nav ul li a {
     padding: 10% 5%;
 }
 
+header img {
+    display: block;
+    width: 70%;
+    height: auto;
+    border-radius: 80%;
+    border: double 9px #f0bad1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10%;
+}
+
 /*ABOUT*/
 #about h1 {
     font-size: 110%;
@@ -417,7 +429,7 @@ mark {
         padding: 10% 5%;
     }
 
-    /*ABOUT ME*/
+    /*ABOUT*/
 
     #about h1 {
         font-size: 250%;
@@ -483,6 +495,7 @@ mark {
     }
 
     /*CONTACT*/
+
     #contact h1 {
         font-size: 250%;
         padding: 5% 0;
@@ -499,7 +512,6 @@ mark {
     .email, .linkedin, .github {
         font-size: 140%;
         margin: 5% 0;
-       
     }
 
     .linkedin a, .github a {
@@ -530,6 +542,14 @@ mark {
         font-size: 90%;
         text-transform: lowercase;
     }
+
+    .welcome h1 {
+        font-size: 150%;
+    }
+
+    /*ABOUT*/
+
+
 
 
 
