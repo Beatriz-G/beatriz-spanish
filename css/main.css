@@ -52,7 +52,6 @@ body {
 
 .nagivation nav {
     text-decoration: none;
-    font-size: 5px;
 }
 
 nav ul {
@@ -521,49 +520,91 @@ mark {
 @media screen and (min-width: 1024px)  {
 
     /*OPENING*/
+    .navigation {
+        display: inline;
+        width: 100%;
+        
+    }
+
     .navigation h1 {
-        font-size: 300%;
-       
+        font-size: 30px;
+        width: 25%;
+        padding-top: 4%;
+        margin-left: 1%;
     }
    
+    .navigation nav {
+        width: 100%;
+       
+    }
+
+    .naviation nav ul {
+        justify-content:space-between;
+        
+
+    }
+
+    nav ul li a {
+        text-transform: lowercase;
+        text-decoration: none;
+        font-size: 80%;
+         margin-right: 20px;
+
+    }
+
+    header a:hover {
+        font-size: 90%;
+        text-transform: lowercase;
+    }
+
 
 
 /*
-.navigation h1 {
-    font-size: 150%;
-    text-align: center;  
-    width: auto;
-    color: rgb(251, 132, 154);
-    padding: 10% 0;
-    background-color: rgb(239, 242, 245);
-    font-family: 'Lilita One', cursive;
-}
 
-.nagivation nav {
-    text-decoration: none;
-    font-size: 5px;
-}
+    nav ul li a {
+        margin: 0 2px;
+    }
 
-nav ul {
-    list-style-type: none;
-    width: 50%;
-    text-align: center;
-    padding-left: 25%;
-}
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-nav ul li a {
-    text-transform: lowercase;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(251, 132, 154);
-}
+    header a:hover {
+        color: purple;
+        text-transform: uppercase;
+        font-size: 110%;
+    }
 
-.welcome {
-    text-align: center;
-    font-size: 65%;
-    background-color: rgb(245, 220, 239);
-    padding: 10% 5%;
-}
+
+
+.navigation nav {
+        width: 100;
+        display: block;
+    }
+
+    nav ul {
+   
+        list-style-type: none; 
+        line-height: 210%;
+    }
+
+    nav ul li a {
+        margin: 0 15px;
+        font-size: 120%;
+    }
+
+    .welcome {
+        text-align: center;
+        font-size: 125%;
+        background-color: rgb(245, 220, 239);
+        padding: 10% 5%;
+    }
+
+
+
+
 */
 
 }
