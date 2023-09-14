@@ -79,7 +79,7 @@ header img {
     display: block;
     width: 70%;
     height: auto;
-    border-radius: 80%;
+    border-radius: 15%;
     border: double 9px #f0bad1;
     justify-content: space-evenly;
     flex-direction: column;
@@ -88,6 +88,7 @@ header img {
 }
 
 /*ABOUT*/
+
 #about h1 {
     font-size: 110%;
     text-align: center;  
