@@ -424,10 +424,32 @@ mark {
     }
 
     .welcome {
-        text-align: center;
-        font-size: 125%;
+        text-align: left;
+        
         background-color: rgb(245, 220, 239);
-        padding: 10% 5%;
+        padding: 5% 0;
+    }
+
+    header img {
+        display: block;
+        width: 20%;
+        height: auto;
+        border-radius: 100%;
+        border: double 9px #f0bad1;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        float: left;
+         margin-right: 5%;
+        margin-top: 5%;
+    }
+
+    .welcome h1 {
+        padding-left: 10%;
+        line-height: 150%;
+        font-size: 275%;
+        margin-right: 10%;
+       
     }
 
     /*ABOUT*/
