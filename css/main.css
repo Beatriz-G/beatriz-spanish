@@ -511,26 +511,10 @@ mark {
         padding-bottom: 10%;
     }
 
-
-
-
-    /*
-
-
-
-
-/*Social Links*/
-
-/*
-
-
     .name {
         color: rgb(240, 115, 136);
     }
-
-    */
-
-    }
+}
 
 /*****DESKTOP STYLES*****/
 @media screen and (min-width: 1200px)  {
