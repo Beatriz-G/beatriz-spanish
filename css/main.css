@@ -439,7 +439,7 @@ mark {
         flex-direction: column;
         text-align: center;
         float: left;
-         margin-right: 5%;
+        margin-right: 5%;
         margin-top: 5%;
     }
 
@@ -556,9 +556,9 @@ mark {
     /*OPENING*/
 
      .navigation h1 {
-        font-size: 250%;
+        font-size: 290%;
         margin: 0;
-        padding: 4% 2%;
+        padding: 2% 2%;
     }
    
     header a:hover {
@@ -570,21 +570,33 @@ mark {
         font-size: 300%;
     }
 
-    img {
+    header img {
         display: block;
         width: 20%;
-        
+        border-radius: 10%;
+
         
     }
 
     .welcome {
-        padding: 2% 0;
+        padding: 2.5% 0;
     }
 
     /*ABOUT*/
 
-
-
+    /*
+    display: block;
+    width: 20%;
+    height: auto;
+    
+    border: double 9px #f0bad1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    margin-right: 5%;
+    margin-top: 5%;
+    */
 
 
 }
