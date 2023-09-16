@@ -310,8 +310,9 @@ mark {
     display: block;
     width: 95%;
     height: auto;
-    border-radius: 60%;
+    border-radius: 80%;
     border: double 7px #f0bad1;
+    box-shadow: 15px 15px 20px rgb(230, 139, 230);
 }
 
 .overlay {
