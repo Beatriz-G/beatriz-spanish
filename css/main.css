@@ -40,6 +40,19 @@ body {
 
 /*OPENING*/
 
+header img {
+    display: block;
+    width: 70%;
+    height: auto;
+    border-radius: 80%;
+    border: double 9px #f0bad1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    box-shadow: 17px 17px 20px rgb(230, 139, 230);
+}
+
 .navigation h1 {
     font-size: 150%;
     text-align: center;  
@@ -75,17 +88,7 @@ nav ul li a {
     padding: 10% 5%;
 }
 
-header img {
-    display: block;
-    width: 70%;
-    height: auto;
-    border-radius: 100%;
-    border: double 9px #f0bad1;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: center;
-    margin-left: 10%;
-}
+
 
 /*ABOUT*/
 
@@ -433,7 +436,7 @@ mark {
         display: block;
         width: 20%;
         height: auto;
-        border-radius: 100%;
+        border-radius: 10%;
         border: double 9px #f0bad1;
         justify-content: space-evenly;
         flex-direction: column;
@@ -441,14 +444,14 @@ mark {
         float: left;
         margin-right: 5%;
         margin-top: 5%;
+        box-shadow: 10px 10px 15px rgb(230, 139, 230);
     }
 
     .welcome h1 {
         padding-left: 10%;
         line-height: 150%;
-        font-size: 275%;
+        font-size: 245%;
         margin-right: 10%;
-       
     }
 
     /*ABOUT*/
@@ -591,7 +594,7 @@ mark {
     }
 
     .p1, .p2, .p3 {
-        font-size: 180%;
+        font-size: 150%;
         line-height: 190%;
     }
      
