@@ -389,7 +389,6 @@ mark {
     color: rgb(240, 115, 136);
 }
 
-
 /*****TABLET STYLES*****/
 
 @media screen and (min-width: 760px)  {
@@ -439,8 +438,7 @@ mark {
         flex-direction: column;
         text-align: center;
         float: left;
-        margin-right: 5%;
-        margin-top: 5%;
+        margin: 5% 8%;
         box-shadow: 10px 10px 15px rgb(230, 139, 230);
     }
 
