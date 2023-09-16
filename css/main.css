@@ -425,7 +425,6 @@ mark {
 
     .welcome {
         text-align: left;
-        
         background-color: rgb(245, 220, 239);
         padding: 5% 0;
     }
@@ -563,7 +562,7 @@ mark {
     }
    
     header a:hover {
-        font-size: 90%;
+        color:rgb(195, 7, 101);
         text-transform: lowercase;
     }
 
@@ -571,12 +570,16 @@ mark {
         font-size: 300%;
     }
 
-    header img {
+    img {
         display: block;
         width: 20%;
-        margin-bottom: 20%;
+        
+        
     }
 
+    .welcome {
+        padding: 2% 0;
+    }
 
     /*ABOUT*/
 
