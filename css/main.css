@@ -298,21 +298,23 @@ mark {
     background-color: #fad2e4;
 }
 
-/*IMG OVERLAY*/
+/*IMAGE*/
 
-.img-container {
+.summary img {
     position: relative;
     width: 50%;
-    margin-left: 25%;
+    border: double 7px #f0bad1;
+    box-shadow: 15px 15px 20px rgb(230, 139, 230);
+    border-radius: 80%;
 }
+
 
 .img-container img {
     display: block;
     width: 95%;
     height: auto;
-    border-radius: 80%;
-    border: double 7px #f0bad1;
-    box-shadow: 15px 15px 20px rgb(230, 139, 230);
+    
+    
 }
 
 /*Social Links*/
