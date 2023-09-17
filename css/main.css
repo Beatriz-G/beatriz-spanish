@@ -222,25 +222,6 @@ nav ul li a {
     font-family: 'Lilita One', cursive;
 }
 
-#skills h2 {
-    font-size: 40px;
-    font-family: 'Emblema One', cursive;
-    padding: 10px 0;
-    text-align: center;
-    color: #CF2A54;
-    border: solid 2px;
-}
-
-.skills-sections {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    
-    width: auto;
-    margin: 25px auto;
-}
-
 .skills ul, 
 .skills2 ul, 
 .tools ul {
