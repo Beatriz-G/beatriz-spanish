@@ -589,13 +589,32 @@ mark {
     }
 
     .p1, .p2, .p3 {
-        font-size: 150%;
+        font-size: 140%;
         line-height: 190%;
-        width: 80%;
+        padding: 5% 15%;
+        
+    }
+
+    .p1:hover {
+        background-color:rgb(228, 171, 228);
+        color: black;
+    } 
+
+    .p2:hover {
+        background-color:rgb(246, 206, 246);
+        color: black;
+    }
+    
+    .p3:hover {
+        background-color:rgb(249, 222, 249);
+        color: black;
+
     }
      
     /*PROYECTOS*/
-
+    .project-piece {
+        width: 25%;
+    }
 
 
 
