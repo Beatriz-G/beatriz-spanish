@@ -3,6 +3,7 @@ html {
 }
 
 /*BODY*/
+
 body {
     font-family: 'Sansita', sans-serif;
     color: #3c1c1c;
@@ -18,6 +19,7 @@ body {
 }
 
 /*BACK TO TOP ARROW*/
+
 #myBtn {
     display: none;
     position: fixed;
@@ -300,8 +302,6 @@ mark {
     background-color: #fad2e4;
 }
 
-/*IMAGE*/
-
 .summary img {
     position: relative;
     width: 50%;
@@ -468,7 +468,7 @@ mark {
     }
 
     /*SKILLS-TOOLS*/
-    
+
     #skills h1 {
         font-size: 250%;
         padding: 5% 0;
@@ -612,19 +612,12 @@ mark {
     #contact h1 {
         margin-bottom: 5%;
     }
-
-    #contact .footer-summary {
-        width: 100%;
-        display:flexbox;
-    }
    
     .summary p {
         padding: 5%;
         text-align: left;
         font-size: 130%;
     }
-
-    /*IMAGE*/
 
     .summary img {
         width: 15%;
@@ -637,5 +630,3 @@ mark {
     }
 
 }
-
-
