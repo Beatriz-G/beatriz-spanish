@@ -124,10 +124,6 @@ header img {
  
 /*PROJECTS*/
 
-#projects {
-    text-align: center;
-}
-
 #projects h1 {
     font-size: 140%;
     text-align: center;  
@@ -136,6 +132,20 @@ header img {
     padding: 10% 0;
     background-color: rgb(239, 242, 245);
     font-family: 'Lilita One', cursive;
+}
+
+.project-piece {
+    width: 80%;
+    max-width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border: 3px solid pink;
+    box-shadow: 7px 7px 10px rgb(235, 178, 235); 
+    background-color:rgb(238, 217, 234);
 }
 
 .project-piece h3 {
@@ -160,20 +170,6 @@ header img {
     width: 100%;
     margin: 25px auto;
     padding-top: 30px;
-}
-
-.project-piece {
-    width: 80%;
-    max-width: 800px;
-    height: 700px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-    border: 3px solid pink;
-    box-shadow: 7px 7px 10px rgb(235, 178, 235); 
-    background-color:rgb(238, 217, 234);
 }
 
 .project-button {
@@ -402,10 +398,7 @@ mark {
     }
 
     .project-piece {
-        width: 80%;
-        max-width: 800px;
         height: 800px;
-        padding: 10px 20px;
     }
 
     .project-piece h3 {
@@ -414,8 +407,6 @@ mark {
 
     .project-piece img {
         width: 75%;
-        border: 6px solid pink;
-        border-radius: 20px;
     }
 
     .project-button {
@@ -435,7 +426,7 @@ mark {
         padding-bottom: 15%;
     }
 
-    /*SKILLS-TOOLS*/
+    /*SKILLS*/
 
     #skills h1 {
         font-size: 250%;
