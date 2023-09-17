@@ -467,10 +467,6 @@ mark {
         color: black;
         text-decoration: none;
     }
-    
-    .name {
-        color: rgb(240, 115, 136);
-    }
 }
 
 /*****DESKTOP STYLES*****/
@@ -485,26 +481,26 @@ mark {
         padding: 2% 2%;
     }
    
-    header a:hover {
-        color:rgb(195, 7, 101);
-        text-transform: lowercase;
+    .welcome {
+        padding: 2.5% 0;
+        height: auto;
     }
 
     .welcome h1 {
         font-size: 300%;
     }
 
-    header img {
-        display: block;
-        width: 15%;
-        border-radius: 10%;
-        box-shadow: 17px 17px 20px rgb(230, 139, 230); 
-        margin-bottom: 10%; 
+    header a:hover {
+        color:rgb(195, 7, 101);
+        text-transform: lowercase;
     }
 
-    .welcome {
-        padding: 2.5% 0;
-        height: auto;
+    header img {
+        width: 15%;
+        border-radius: 10%;
+        display: block;
+        margin-bottom: 10%;
+        box-shadow: 17px 17px 20px rgb(230, 139, 230);
     }
 
     /*ABOUT*/
