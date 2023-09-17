@@ -656,7 +656,7 @@ mark {
         font-size: 130%;
         position:static;
         width: auto;
-    
+        
     }
 
  
@@ -665,7 +665,7 @@ mark {
     /*IMAGE*/
 
     .img-container img {
-        display: block;
+        display: inline-block;
         width: 35%;
         border-radius: 10%;
         box-shadow: 17px 17px 20px rgb(230, 139, 230); 
@@ -673,8 +673,11 @@ mark {
         flex-direction: column;
         text-align: center;
         align-items: right;
-        position: absolute;
-        margin-left: 80%;
+        position:absolute;
+        margin-left: 50%;
+        margin-bottom: 90%;
+      
+        
     }
     /*
     display: block;
