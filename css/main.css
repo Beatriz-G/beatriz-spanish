@@ -608,12 +608,16 @@ mark {
     .p3:hover {
         background-color:rgb(249, 222, 249);
         color: black;
-
     }
      
     /*PROYECTOS*/
     .project-piece {
         width: 25%;
+        background-color: rgb(252, 230, 233);
+    }
+
+    .project-piece:hover {
+        background-color: rgb(244, 222, 244);
     }
 
 
