@@ -314,7 +314,7 @@ mark {
     border: double 7px #f0bad1;
     box-shadow: 15px 15px 20px rgb(230, 139, 230);
 }
-
+/*
 .overlay {
     position: absolute;
     top: 0;
@@ -345,6 +345,7 @@ mark {
     font-family: 'Emblema One', cursive;
     cursor: default;
 }
+*/
 
 /*Social Links*/
 
@@ -647,36 +648,34 @@ mark {
 
     #contact .footer-summary {
         width: 100%;
-    }
+        display:flexbox;
 
+    }
+   
 
     .summary p {
         padding: 5%;
         text-align: left;
         font-size: 130%;
-        position:static;
-        width: auto;
+       
         
+    
     }
 
- 
+ /*position:static;*/
 
 
     /*IMAGE*/
 
-    .img-container img {
-        display: inline-block;
-        width: 35%;
+    .summary img {
+        width: 15%;
         border-radius: 10%;
-        box-shadow: 17px 17px 20px rgb(230, 139, 230); 
-        justify-content: space-evenly;
-        flex-direction: column;
-        text-align: center;
-        align-items: right;
+        box-shadow: 17px 17px 20px rgb(230, 139, 230);    
         position:absolute;
-        margin-left: 50%;
-        margin-bottom: 90%;
+        
+        left: 80%;
       
+        
         
     }
     /*
@@ -687,7 +686,7 @@ mark {
         border: double 7px #f0bad1;
         box-shadow: 15px 15px 20px rgb(230, 139, 230);
         margin-bottom: 50%;
-*/
+
     
     .overlay {
         position: absolute;
@@ -719,7 +718,7 @@ mark {
         font-family: 'Lilita One', cursive;
         cursor: default;
     }
-
+*/
 
 
 }
