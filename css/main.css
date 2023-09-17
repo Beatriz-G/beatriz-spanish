@@ -573,18 +573,23 @@ mark {
    
     .summary p {
         font-size: 130%;
-        padding: 5%;
+        padding: 3% 5%;
         text-align: left;
     }
 
     .summary img {
-        width: 15%;
+        width: 12%;
         position: absolute;
         border-radius: 10%;
         border: double 9px #f0bad1;
         box-shadow: 17px 17px 20px rgb(230, 139, 230);    
         left: 75%;
-        margin-top: 10%;
+        margin-top: 9%;
     }
+
+    /*SOCIAL LINKS*?
+
+
+
 
 }
