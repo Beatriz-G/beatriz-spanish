@@ -42,13 +42,6 @@ body {
 
 /*OPENING*/
 
-.welcome {
-    text-align: center;
-    font-size: 65%;
-    background-color: rgb(245, 220, 239);
-    padding: 10% 5%;
-}
-
 .navigation h1 {
     font-size: 150%;
     text-align: center;  
@@ -59,18 +52,6 @@ body {
     font-family: 'Lilita One', cursive;
 }
 
-header img {
-    display: block;
-    width: 70%;
-    height: auto;
-    border-radius: 80%;
-    border: double 9px #f0bad1;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: center;
-    margin: auto;
-    box-shadow: 17px 17px 20px rgb(230, 139, 230);
-}
 .nagivation nav {
     text-decoration: none;
 }
@@ -89,7 +70,25 @@ nav ul li a {
     color: rgb(251, 132, 154);
 }
 
+.welcome {
+    text-align: center;
+    font-size: 65%;
+    background-color: rgb(245, 220, 239);
+    padding: 10% 5%;
+}
 
+header img {
+    display: block;
+    width: 70%;
+    height: auto;
+    border-radius: 80%;
+    border: double 9px #f0bad1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    box-shadow: 17px 17px 20px rgb(230, 139, 230);
+}
 
 /*ABOUT*/
 
@@ -341,16 +340,10 @@ mark {
 
     /*OPENING*/
 
-    .welcome {
-        text-align: left;
-        padding: 5% 0;
-    }
-
     .navigation h1 {
         font-size: 280%;
         padding: 5% 2%;
     }
-
 
     .navigation nav {
         width: 100;
@@ -361,7 +354,6 @@ mark {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        list-style-type: none; 
         line-height: 210%;
     }
 
@@ -370,15 +362,9 @@ mark {
         font-size: 120%;
     }
 
-    
-
-    header img {
-        display: block;
-        width: 20%;
-        border-radius: 10%;
-        float: left;
-        margin: 5% 8%;
-        box-shadow: 10px 10px 15px rgb(230, 139, 230);
+    .welcome {
+        text-align: left;
+        padding: 5% 0;
     }
 
     .welcome h1 {
@@ -386,6 +372,14 @@ mark {
         line-height: 150%;
         font-size: 245%;
         margin-right: 10%;
+    }
+
+    header img {
+        width: 20%;
+        border-radius: 10%;
+        float: left;
+        margin: 5% 8%;
+        box-shadow: 10px 10px 15px rgb(230, 139, 230);
     }
 
     /*ABOUT*/
