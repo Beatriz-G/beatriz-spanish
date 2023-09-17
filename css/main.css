@@ -640,6 +640,18 @@ mark {
     }
 
     /*CONTACT*/
+    .summary p {
+        font-size: 120%;
+        text-align: left;
+        width: 40%;
+        display: flex;
+        padding: 5%;
+        line-height: 35px;
+        background-color: #fad2e4;
+    }
+    
+
+
 
 
 }
