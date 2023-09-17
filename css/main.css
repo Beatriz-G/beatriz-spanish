@@ -287,14 +287,14 @@ mark {
     border-radius: 80%;
 }
 
-/*Social Links*/
+/*SOCIAL LINKS*/
 
-.contact {
+.contact-links {
     display: flex;
     justify-content: space-around;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 40%;
+    padding-bottom: 30%;
 }
 
 .email {
@@ -453,7 +453,11 @@ mark {
     }
 
     /*SOCIAL LINKS*/
-
+    
+    .contact-links {
+        padding-bottom: 10%;
+    }
+    
     .email, .linkedin, .github {
         font-size: 140%;
         margin: 5% 0;
@@ -464,10 +468,6 @@ mark {
         text-decoration: none;
     }
     
-    .contact {
-        padding-bottom: 10%;
-    }
-
     .name {
         color: rgb(240, 115, 136);
     }
