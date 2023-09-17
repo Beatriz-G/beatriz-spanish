@@ -645,9 +645,21 @@ mark {
         margin-bottom: 5%;
     }
 
-    .summary p {
-        
+    #contact .footer-summary {
+        width: 100%;
     }
+
+
+    .summary p {
+        padding: 5%;
+        text-align: left;
+        font-size: 130%;
+        position:static;
+        width: auto;
+    
+    }
+
+ 
 
 
     /*IMAGE*/
@@ -655,12 +667,24 @@ mark {
     .img-container img {
         display: block;
         width: 35%;
+        border-radius: 10%;
+        box-shadow: 17px 17px 20px rgb(230, 139, 230); 
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        align-items: right;
+        position: absolute;
+        margin-left: 80%;
+    }
+    /*
+    display: block;
+        width: 35%;
         height: auto;
         border-radius: 10%;
         border: double 7px #f0bad1;
         box-shadow: 15px 15px 20px rgb(230, 139, 230);
         margin-bottom: 50%;
-    }
+*/
     
     .overlay {
         position: absolute;
@@ -692,7 +716,6 @@ mark {
         font-family: 'Lilita One', cursive;
         cursor: default;
     }
-
 
 
 
