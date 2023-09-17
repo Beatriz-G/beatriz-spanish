@@ -314,38 +314,6 @@ mark {
     border: double 7px #f0bad1;
     box-shadow: 15px 15px 20px rgb(230, 139, 230);
 }
-/*
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 95%;
-    opacity: 0;
-    transition: .8s ease;
-    background: rgba(238, 182, 182, 0.8);
-    border-radius: 80%;
-    padding-left: 12px;
-}
-
-.img-container:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-family: 'Emblema One', cursive;
-    cursor: default;
-}
-*/
 
 /*Social Links*/
 
@@ -550,6 +518,7 @@ mark {
 }
 
 /*****DESKTOP STYLES*****/
+
 @media screen and (min-width: 1024px)  {
 
     /*OPENING*/
@@ -611,6 +580,7 @@ mark {
     }
      
     /*PROYECTOS*/
+
     .project-piece {
         width: 25%;
         background-color: rgb(252, 230, 233);
@@ -651,7 +621,6 @@ mark {
         display:flexbox;
     }
    
-
     .summary p {
         padding: 5%;
         text-align: left;
