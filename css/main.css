@@ -209,6 +209,7 @@ nav ul li a {
 }
 
 /*SKILLS*/
+
 #skills h1 {
     font-size: 140%;
     text-align: center;  
@@ -255,6 +256,7 @@ nav ul li a {
 }
 
 /*SKILLS ANIMATION*/
+
 mark {
     --color1: rgba(238, 136, 228, 0.788);
     --color2: rgb(248, 135, 225);
@@ -308,15 +310,6 @@ mark {
     border-radius: 80%;
 }
 
-
-.img-container img {
-    display: block;
-    width: 95%;
-    height: auto;
-    
-    
-}
-
 /*Social Links*/
 
 .contact {
@@ -365,6 +358,7 @@ mark {
 @media screen and (min-width: 760px)  {
 
     /*OPENING*/
+
     .navigation h1 {
         font-size: 280%;
         text-align: center;  
@@ -474,6 +468,7 @@ mark {
     }
 
     /*SKILLS-TOOLS*/
+    
     #skills h1 {
         font-size: 250%;
         padding: 5% 0;
