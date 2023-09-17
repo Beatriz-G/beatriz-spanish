@@ -630,7 +630,7 @@ mark {
     .skills ul, 
     .skills2 ul, 
     .tools ul {
-         display: flex;
+        display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
@@ -640,16 +640,58 @@ mark {
     }
 
     /*CONTACT*/
+
+    #contact h1 {
+        margin-bottom: 5%;
+    }
+
     .summary p {
-        font-size: 120%;
-        text-align: left;
-        width: 40%;
-        display: flex;
-        padding: 5%;
-        line-height: 35px;
-        background-color: #fad2e4;
+        
+    }
+
+
+    /*IMAGE*/
+
+    .img-container img {
+        display: block;
+        width: 35%;
+        height: auto;
+        border-radius: 10%;
+        border: double 7px #f0bad1;
+        box-shadow: 15px 15px 20px rgb(230, 139, 230);
+        margin-bottom: 50%;
     }
     
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 35%;
+        opacity: 0;
+        transition: .8s ease;
+        background: rgba(238, 182, 182, 0.8);
+        border-radius: 10%;
+        padding-left: 12px;
+    }
+    
+    .img-container:hover .overlay {
+        opacity: 1;
+    }
+    
+    .text {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-family: 'Lilita One', cursive;
+        cursor: default;
+    }
 
 
 
