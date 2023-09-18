@@ -587,7 +587,42 @@ mark {
         margin-top: 9%;
     }
 
-    /*SOCIAL LINKS*?
+    /*SOCIAL LINKS*/
+
+
+    .contact-links {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row wrap;
+      
+    }
+
+    .contact-links p{
+        display: block;
+        padding: 0;
+        margin-top: 4%;
+
+    }
+
+    .email, .linkedin, .github {
+        font-family: 'Lilita One', cursive;
+        background-color: white;
+        font-size: 190%;
+  
+    }
+
+    .linkedin a {
+        background-color: none;
+        padding: 0 15%;
+    }
+
+    .github a {
+        background-color: none;
+        padding: 0 15%;
+    }
+
+    
 
 
 
