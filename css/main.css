@@ -595,7 +595,7 @@ mark {
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
-      
+       
     }
 
     .contact-links p{
@@ -609,20 +609,21 @@ mark {
         font-family: 'Lilita One', cursive;
         background-color: white;
         font-size: 190%;
-  
+        margin: 0 15%;
     }
 
     .linkedin a {
         background-color: none;
-        padding: 0 15%;
     }
 
     .github a {
         background-color: none;
-        padding: 0 15%;
+        padding: 0 25%;
     }
 
-    
+    .final {
+        padding-top: 2%;
+    }
 
 
 
