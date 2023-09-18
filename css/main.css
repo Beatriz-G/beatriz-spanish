@@ -612,12 +612,13 @@ mark {
         text-align: left;
     }
 
+    .linkedin a:hover, .github a:hover {
+        color: rgb(201, 70, 92);
+        text-decoration: none;
+    }
+
     .final {
         padding-top: 5%;
         
     }
-
-
-
-
 }
