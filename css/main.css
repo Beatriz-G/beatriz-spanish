@@ -597,6 +597,7 @@ mark {
         background-color: #f9e8f0;
         margin-top: 10%;
         padding-bottom: 0;
+        
     }
 
     .contact-links p{
@@ -610,6 +611,7 @@ mark {
         font-size: 190%;
         margin: 5% 4%;
         text-align: left;
+        color:yello;
     }
 
     .linkedin a:hover, .github a:hover {
